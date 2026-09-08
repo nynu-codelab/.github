@@ -1,0 +1,24 @@
+name: PR Title Lint
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+
+permissions:
+  contents: read
+
+jobs:
+  check-title:
+    name: Check PR Title
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate PR title format
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          echo "PR title: $TITLE"
+          if ! echo "$TITLE" | grep -qE '^(feat|fix|docs|style|refactor|perf|test|build|ci|chore)(\([a-z0-9_-]+\))?!?: .+';
+          then
+            echo "::error::PR 标题需符合 Conventional Commits 格式：type(scope): description，例如 feat(auth): add login page"
+            exit 1
+          fi

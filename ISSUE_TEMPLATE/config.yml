@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: CodeLab 支持
+    url: https://github.com/nynu-codelab/.github/blob/main/SUPPORT.md
+    about: 如果不是 Bug / 功能 / 任务，请先阅读 SUPPORT.md 获取帮助。

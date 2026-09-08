@@ -1,0 +1,57 @@
+name: Project Task
+description: 项目开发任务，用于拆解和跟踪项目工作。
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 任务要求
+        一个任务应足够小，建议一到两周内完成，并有明确的验收标准。
+  - type: textarea
+    id: description
+    attributes:
+      label: 任务描述
+      description: 说明这个任务要做什么、为什么做。
+    validations:
+      required: true
+  - type: input
+    id: assignee
+    attributes:
+      label: 负责人
+      description: 填写 GitHub 用户名。
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 优先级
+      options:
+        - P0 紧急
+        - P1 高
+        - P2 中
+        - P3 低
+  - type: input
+    id: deadline
+    attributes:
+      label: 截止时间
+      description: 格式：YYYY-MM-DD
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 明确列出完成条件，便于 Review 时核对。
+      placeholder: |
+        - [ ] 功能 A 完成并通过测试
+        - [ ] 相关文档已更新
+        - [ ] CI 通过
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: 相关项目
+      description: 所属项目仓库名或项目名。
+  - type: input
+    id: dependencies
+    attributes:
+      label: 依赖任务
+      description: 完成本任务前需要先完成的任务 Issue 编号。

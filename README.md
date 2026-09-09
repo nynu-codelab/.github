@@ -1,31 +1,26 @@
 # CodeLab .github
 
-CodeLab Organization 的公共配置仓库，存放组织主页、Issue / PR 模板、社区健康文件与共享 GitHub Actions Workflow。
+CodeLab Organization 的公共配置仓库，维护组织主页、默认 Issue / PR 模板、社区健康文件和 GitHub 工作流。
 
-## Overview
+## 内容边界
 
-`.github` 仓库是 Organization 级配置的唯一入口。GitHub 会自动把本仓库中的模板与社区健康文件应用到组织内所有仓库。
-
-- 组织主页：`profile/README.md`，展示在 <https://github.com/nynu-codelab>
-- Issue 模板：`ISSUE_TEMPLATE/`
-- PR 模板：`PULL_REQUEST_TEMPLATE.md`
-- 社区健康文件：`CONTRIBUTING.md` / `CODE_OF_CONDUCT.md` / `SECURITY.md` / `SUPPORT.md`
-- 公共 Workflow：`workflows/`
+本仓库只负责 GitHub 平台配置和协作入口，不维护实验室人事、组织制度或成员管理内容。技术与协作规范的唯一来源是 [docs](https://github.com/nynu-codelab/docs)。
 
 ## Structure
 
 ```text
 .github/
 ├── profile/
-│   └── README.md          # 组织首页
+│   └── README.md                    # 组织主页
 ├── ISSUE_TEMPLATE/
-│   ├── bug_report.yml
-│   ├── feature_request.yml
-│   ├── project_task.yml
-│   └── config.yml
-├── workflows/
-│   ├── markdown-lint.yml  # Markdown 规范检查
-│   └── pr-title-lint.yml  # PR 标题格式检查
+│   ├── bug_report.yml               # 缺陷
+│   ├── feature_request.yml          # 功能建议
+│   ├── project_task.yml             # 项目任务
+│   ├── documentation.yml            # 文档任务
+│   ├── technical_debt.yml           # 技术债
+│   └── config.yml                   # Issue 模板配置
+├── workflow-templates/              # Organization 可选工作流模板
+├── workflows/                       # 本仓库自身的检查工作流
 ├── PULL_REQUEST_TEMPLATE.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
@@ -35,13 +30,20 @@ CodeLab Organization 的公共配置仓库，存放组织主页、Issue / PR 模
 └── README.md
 ```
 
-## Usage
+## 自动生效范围
 
-本仓库由 `codelab-admin` 团队维护。修改模板或健康文件后，通过 Pull Request 提交，经 Review 后合并到 `main`。合并后，改动会自动对所有仓库生效。
+GitHub 会默认读取本仓库的 Issue / PR 模板和社区健康文件。`workflows/` 中的工作流只检查本仓库自身；其他仓库需要按需复制或调用工作流，`workflow-templates/` 提供可复用入口。
 
-## Contributing
+## 修改流程
 
-参见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+本仓库由 `codelab-admin` 维护。修改默认模板、协作规则或安全策略时，通过 Pull Request 提交并完成 Review。
+
+## 规范入口
+
+- 组织协作总则：[CONTRIBUTING.md](CONTRIBUTING.md)
+- 技术文档与协作规范：[docs](https://github.com/nynu-codelab/docs)
+- 项目模板：[templates](https://github.com/nynu-codelab/templates)
+- 安全问题：[SECURITY.md](SECURITY.md)
 
 ## License
 

@@ -1,0 +1,6 @@
+{
+  "name": "CodeLab PR Title Lint",
+  "description": "检查 Pull Request 标题是否符合 Conventional Commits。",
+  "iconName": "github",
+  "categories": ["Continuous integration", "Code review"]
+}

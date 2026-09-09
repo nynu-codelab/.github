@@ -1,47 +1,54 @@
-# CodeLab
+# NYNU CodeLab
 
-> 南阳师范学院 CodeLab 实验室
+CodeLab 是南阳师范学院面向本科生设立的科研与工程实践实验室。GitHub 组织用于承载代码、技术文档、工程规范与协作流程；成员管理、组织制度和日常沟通由飞书负责。
 
-CodeLab 是面向本科生的科研与工程实践实验室，聚焦软件工程（全栈开发、产品测试、运维）与成果转化，以真实项目驱动学习，以规范工程流程培养成员。
+## 仓库导航
 
-## 组织架构
-
-两个部门，软件研发部下设三个组：
-
-| 部门 | 组 | 定位与方向 |
+| 仓库 | 用途 | 入口 |
 | --- | --- | --- |
-| 软件研发部 | 全栈开发组 | 应用与全栈开发：Java · Python · TypeScript · Vue / React · Spring Boot · FastAPI · AI / Agent |
-| 软件研发部 | 产品测试组 | 需求分析、测试用例、提测验收与质量报告 |
-| 软件研发部 | 运维组 | 部署、CI/CD、服务器与监控、上线执行 |
-| 成果中心 | — | 成果转化与归档：论文 · 专利 · 软著 · 竞赛 · 企业合作 |
+| `docs` | 技术文档与协作规范，GitHub 上相关内容的唯一来源 | <https://github.com/nynu-codelab/docs> |
+| `templates` | Java、Python、TypeScript、全栈与 AI Agent 项目模板 | <https://github.com/nynu-codelab/templates> |
+| `.github` | 组织主页、默认 Issue / PR 模板、安全与支持说明 | <https://github.com/nynu-codelab/.github> |
+| `codelab-web` | 实验室官方网站 | <https://github.com/nynu-codelab/codelab-web> |
 
-> 方向不设限，项目驱动学习，欢迎跨组参与。
+## 开始协作
 
-## 项目方向
+1. 阅读 [CONTRIBUTING.md](https://github.com/nynu-codelab/.github/blob/main/CONTRIBUTING.md)，了解统一协作流程。
+2. 按任务类型阅读 [docs](https://github.com/nynu-codelab/docs) 中的 Git、GitHub、测试、发布和技术栈规范。
+3. 使用 [templates](https://github.com/nynu-codelab/templates) 创建项目，避免从零搭建。
+4. 通过 Issue、分支、Pull Request、CI 和 Code Review 完成交付。
 
-- 软件工程实践：Java / Python 全栈项目、AI / Agent 应用
-- 计算机视觉：目标检测、图像分割、工业视觉
-- 工业无人机：飞控、视觉定位、空地协同
-- 树莓派 / 嵌入式：智能硬件、边缘部署
-- 科技竞赛：互联网+、挑战杯、软件杯、华为 ICT 等
-- 企业合作：真实项目、技术方案、论文 / 专利
+## 统一工作流
 
-## 如何参与
+```text
+Issue
+  -> 创建分支
+  -> 开发与本地验证
+  -> Commit
+  -> Push
+  -> Pull Request
+  -> GitHub Actions
+  -> Code Review
+  -> Merge
+  -> Release
+```
 
-1. 加入 GitHub 组织 `nynu-codelab`
-2. 根据兴趣选择部门（软件研发部下设三个组），获得对应角色
-3. 从 [handbook](https://github.com/nynu-codelab/handbook) 了解实验室，按 [新人入门](https://github.com/nynu-codelab/handbook/tree/main/onboarding) 开始
-4. 在 [docs](https://github.com/nynu-codelab/docs) 学习技术，在 [templates](https://github.com/nynu-codelab/templates) 获取模板
+## 工程底线
 
-## 相关仓库
+- 不直接向受保护的 `main` 分支提交代码。
+- 每个 PR 只解决一个明确问题，并关联对应 Issue。
+- Commit 与 PR 标题使用 Conventional Commits 格式。
+- CI、测试和 Code Review 通过后才能合并。
+- 不提交密码、Token、`.env`、真实数据库连接串或企业敏感数据。
+- 技术方案、接口、部署、测试与复盘文档随项目版本化维护。
 
-- [handbook](https://github.com/nynu-codelab/handbook)：实验室手册
-- [docs](https://github.com/nynu-codelab/docs)：技术文档中心
-- [templates](https://github.com/nynu-codelab/templates)：项目模板
-- [codelab-web](https://github.com/nynu-codelab/codelab-web)：实验室官网
+## 平台边界
 
-## 联系
+| 平台 | 负责内容 |
+| --- | --- |
+| 飞书 | 组织架构、角色职责、入组与权限、会议、考勤、奖惩、成果与保密制度 |
+| GitHub | 代码、Issue、Pull Request、Code Review、CI/CD、Release、技术方案、接口、部署与复盘文档 |
 
-- 飞书：CodeLab 成员群
-- GitHub：issue / discussion
-- 指导老师：×××
+## 安全
+
+不要在公开 Issue 中报告安全漏洞或泄露凭据。处理方式见 [SECURITY.md](https://github.com/nynu-codelab/.github/blob/main/SECURITY.md)。

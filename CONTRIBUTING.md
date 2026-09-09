@@ -1,8 +1,8 @@
 # Contributing to CodeLab
 
-本文件定义 CodeLab 在 GitHub 上的统一协作方式，默认适用于组织内所有代码与技术文档仓库。
+本文件定义 CodeLab 在 GitHub 上的最低协作要求，默认适用于组织内所有代码与技术文档仓库。
 
-成员管理、组织制度、权限申请、会议、考勤、奖惩和成果管理制度以飞书 CodeLab 成员手册为准；技术规范、代码规范和协作流程以本文件及 [docs](https://github.com/nynu-codelab/docs) 为准。
+成员管理、组织制度、权限申请、会议、考勤、奖惩和成果管理制度以飞书 CodeLab 成员手册为准；详细技术规范、代码规范和协作流程统一以 [docs](https://github.com/nynu-codelab/docs) 为准。
 
 ## 核心原则
 

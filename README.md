@@ -22,6 +22,7 @@ CodeLab Organization 的公共配置仓库，维护组织主页、默认 Issue /
 ├── workflow-templates/              # Organization 可选工作流模板
 ├── .github/workflows/               # 本仓库自身的检查工作流
 ├── PULL_REQUEST_TEMPLATE.md
+├── CODEOWNERS
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── SECURITY.md

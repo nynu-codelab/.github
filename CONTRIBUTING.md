@@ -78,7 +78,7 @@ docs(github): clarify review checklist
 - 使用 `Closes #<issue-number>` 关联 Issue。
 - 涉及 API、数据库、配置或部署变更时，必须说明兼容性和迁移方案。
 - 不混入无关格式化、重构或依赖升级。
-- 所有检查通过，至少一位 Reviewer 批准后才能合并。
+- 所有检查通过，至少一位 Reviewer 批准后才能合并；关键规范仓库还要求 `codelab-admin` 作为 Code Owner 批准。
 
 详细流程见 [Pull Request 规范](https://github.com/nynu-codelab/docs/blob/main/github/pull-request.md)。
 

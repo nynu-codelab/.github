@@ -20,7 +20,7 @@ CodeLab Organization 的公共配置仓库，维护组织主页、默认 Issue /
 │   ├── technical_debt.yml           # 技术债
 │   └── config.yml                   # Issue 模板配置
 ├── workflow-templates/              # Organization 可选工作流模板
-├── workflows/                       # 本仓库自身的检查工作流
+├── .github/workflows/               # 本仓库自身的检查工作流
 ├── PULL_REQUEST_TEMPLATE.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
@@ -32,7 +32,7 @@ CodeLab Organization 的公共配置仓库，维护组织主页、默认 Issue /
 
 ## 自动生效范围
 
-GitHub 会默认读取本仓库的 Issue / PR 模板和社区健康文件。`workflows/` 中的工作流只检查本仓库自身；其他仓库需要按需复制或调用工作流，`workflow-templates/` 提供可复用入口。
+GitHub 会默认读取本仓库的 Issue / PR 模板和社区健康文件。`.github/workflows/` 中的工作流只检查本仓库自身；其他仓库需要按需复制或调用工作流，`workflow-templates/` 提供可复用入口。
 
 ## 修改流程
 

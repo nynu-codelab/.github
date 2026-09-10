@@ -137,7 +137,7 @@ GitHub 不允许 PR 作者批准自己的 Pull Request。`codelab-admin` 成员�
 - 不提交实验室或合作企业的内部数据。
 - 示例配置只提交 `.env.example`，并保留空值或占位符。
 - 发现凭据泄露时，先轮换或吊销凭据，再联系管理员处理历史记录。
-- 安全问题不要在公开 Issue 中讨论，处理方式见 [SECURITY.md](SECURITY.md)。
+- 代码漏洞、依赖告警、配置隐患可以直接开 Issue 公开讨论；凭据类问题先轮换再说明，流程见 [SECURITY.md](SECURITY.md)。
 
 ## 新人第一次贡献
 

@@ -1,6 +1,6 @@
 # CodeLab .github
 
-CodeLab Organization 的公共配置仓库，维护组织主页、默认 Issue / PR 模板、社区健康文件和 GitHub 工作流。
+CodeLab Organization 的公共配置仓库，维护默认 Issue / PR 模板、社区健康文件和 GitHub 工作流。
 
 ## 内容边界
 
@@ -10,8 +10,6 @@ CodeLab Organization 的公共配置仓库，维护组织主页、默认 Issue /
 
 ```text
 .github/
-├── profile/
-│   └── README.md                    # 组织主页
 ├── ISSUE_TEMPLATE/
 │   ├── bug_report.yml               # 缺陷
 │   ├── feature_request.yml          # 功能建议

@@ -8,8 +8,6 @@ CodeLab 是南阳师范学院面向本科生设立的科研与工程实践实验
 | --- | --- | --- |
 | `docs` | 技术文档与协作规范，GitHub 上相关内容的唯一来源 | <https://github.com/nynu-codelab/docs> |
 | `.github` | 组织主页、默认 Issue / PR 模板、安全与支持说明 | <https://github.com/nynu-codelab/.github> |
-| `codelab-web` | 实验室官方网站 | <https://github.com/nynu-codelab/codelab-web> |
-| `lab-member-system-docs` | 新人入门项目题目与成果提交入口 | <https://github.com/nynu-codelab/lab-member-system-docs> |
 
 组织不维护"复制即用"的项目模板。新项目按规范从零搭建，一致性由分支保护、CODEOWNERS 和 CI 检查保证——提交不合规时由 CI 直接指出要改什么。
 

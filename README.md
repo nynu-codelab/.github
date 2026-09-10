@@ -43,7 +43,7 @@ GitHub 会默认读取本仓库的 Issue / PR 模板和社区健康文件。`.gi
 
 - 组织协作总则：[CONTRIBUTING.md](CONTRIBUTING.md)
 - 技术文档与协作规范：[docs](https://github.com/nynu-codelab/docs)
-- 项目模板：[templates](https://github.com/nynu-codelab/templates)
+- 新建仓库与项目配置：[docs / codelab-admin / repository.md](https://github.com/nynu-codelab/docs/blob/main/codelab-admin/repository.md)
 - 安全问题：[SECURITY.md](SECURITY.md)
 
 ## License

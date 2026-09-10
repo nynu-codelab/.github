@@ -7,15 +7,17 @@ CodeLab 是南阳师范学院面向本科生设立的科研与工程实践实验
 | 仓库 | 用途 | 入口 |
 | --- | --- | --- |
 | `docs` | 技术文档与协作规范，GitHub 上相关内容的唯一来源 | <https://github.com/nynu-codelab/docs> |
-| `templates` | Java、Python、TypeScript、全栈与 AI Agent 项目模板 | <https://github.com/nynu-codelab/templates> |
 | `.github` | 组织主页、默认 Issue / PR 模板、安全与支持说明 | <https://github.com/nynu-codelab/.github> |
 | `codelab-web` | 实验室官方网站 | <https://github.com/nynu-codelab/codelab-web> |
+| `lab-member-system-docs` | 新人入门项目题目与成果提交入口 | <https://github.com/nynu-codelab/lab-member-system-docs> |
+
+组织不维护"复制即用"的项目模板。新项目按规范从零搭建，一致性由分支保护、CODEOWNERS 和 CI 检查保证——提交不合规时由 CI 直接指出要改什么。
 
 ## 开始协作
 
 1. 阅读 [CONTRIBUTING.md](https://github.com/nynu-codelab/.github/blob/main/CONTRIBUTING.md)，了解统一协作流程。
 2. 按任务类型阅读 [docs](https://github.com/nynu-codelab/docs) 中的 Git、GitHub、测试、发布和技术栈规范。
-3. 使用 [templates](https://github.com/nynu-codelab/templates) 创建项目，避免从零搭建。
+3. 新建仓库时按 [仓库规范](https://github.com/nynu-codelab/docs/blob/main/codelab-admin/repository.md) 与 [新仓库权限配置](https://github.com/nynu-codelab/docs/blob/main/codelab-admin/repository-setup.md) 配好权限、CODEOWNERS、分支保护、安全开关和标准检查工作流。
 4. 通过 Issue、分支、Pull Request、CI 和 Code Review 完成交付。
 
 ## 统一工作流

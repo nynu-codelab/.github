@@ -53,4 +53,4 @@ Issue
 
 ## 安全
 
-不要在公开 Issue 中报告安全漏洞或泄露凭据。处理方式见 [SECURITY.md](https://github.com/nynu-codelab/.github/blob/main/SECURITY.md)。
+代码漏洞、依赖告警、配置隐患欢迎直接开 Issue 公开讨论。误提交凭据时，先在密钥后台轮换，再按 [SECURITY.md](https://github.com/nynu-codelab/.github/blob/main/SECURITY.md) 说明情况。

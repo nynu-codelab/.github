@@ -49,6 +49,8 @@ Issue
 | 飞书 | 组织架构、角色职责、入组与权限、会议、考勤、奖惩、成果与保密制度 |
 | GitHub | 代码、Issue、Pull Request、Code Review、CI/CD、Release、技术方案、接口、部署与复盘文档 |
 
+`CodeLab 成员手册`（组织架构、入组与权限、会议、考勤、奖惩、成果与保密制度）在飞书知识库维护，以飞书版本为唯一权威；GitHub 侧不复制这些内容。
+
 ## 安全
 
 不要在公开 Issue 中报告安全漏洞或泄露凭据。处理方式见 [SECURITY.md](https://github.com/nynu-codelab/.github/blob/main/SECURITY.md)。

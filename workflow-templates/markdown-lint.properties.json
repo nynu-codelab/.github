@@ -1,0 +1,6 @@
+{
+  "name": "CodeLab Markdown Lint",
+  "description": "检查 Markdown 文件格式。",
+  "iconName": "markdown",
+  "categories": ["Continuous integration", "Documentation"]
+}

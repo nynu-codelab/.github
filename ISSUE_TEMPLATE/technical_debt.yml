@@ -1,0 +1,42 @@
+name: Technical Debt
+description: 记录会影响可维护性、安全性、测试或发布效率的技术债。
+title: "[Debt]: "
+labels: ["technical debt"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前问题
+      description: 描述现状、影响范围和为什么现在需要处理。
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险
+      description: 说明可能导致的缺陷、性能、安全、维护或交付风险。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 给出可执行的处理方向、范围和替代方案。
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完成标准
+      description: 明确可验证的完成条件。
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 优先级
+      options:
+        - P0 紧急
+        - P1 高
+        - P2 中
+        - P3 低
+    validations:
+      required: true

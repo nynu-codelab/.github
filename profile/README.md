@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/nynu-codelab/.github@main/profile/typing.svg" alt="Welcome to CodeLab." />
+  <img src="https://cdn.jsdelivr.net/gh/nynu-codelab/.github@0ddd02608e474b8d0cbaae868469160ad15ca172/profile/typing.svg" alt="Welcome to CodeLab." />
 </p>
 
 <p align="center">南阳师范学院 CodeLab 实验室</p>

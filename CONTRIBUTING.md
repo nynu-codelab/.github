@@ -82,6 +82,16 @@ docs(github): clarify review checklist
 
 详细流程见 [Pull Request 规范](https://github.com/nynu-codelab/docs/blob/main/github/pull-request.md)。
 
+## Teams 与仓库权限
+
+组织只维护三个 team，不按职能细分研发组：
+
+- **software**：全体研发人员。所有代码仓库的默认读写权限授给这个 team；CODEOWNERS 中需要研发团队审批时使用 `@nynu-codelab/software`。
+- **achievement**：成果中心成员，负责成果归档、竞赛、论文、专利、软著与企业合作相关仓库。
+- **codelab-admin**：组织负责人与全栈开发组长，负责仓库权限、分支保护、规则集和组织级配置；关键规范仓库要求其 Code Owner 批准。具体成员与调整以飞书成员手册为准。
+
+工作边界不靠 team 划分，而写在每个仓库的 `CODEOWNERS` 中：哪个仓库必须谁批准，以该文件为准——部署与 CI 配置归运维负责人，测试资产归测试负责人，业务代码归全栈开发负责人。需要按职能隔离某个仓库时，直接在该仓库授对应个人权限；不为单一职能预先建组。
+
 ## Code Review
 
 Reviewer 重点检查：

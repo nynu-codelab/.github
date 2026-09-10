@@ -1,62 +1,50 @@
 # CodeLab .github
 
-CodeLab 组织的公共配置仓库：组织主页、Issue / PR 模板、社区健康文件、CODEOWNERS 与共享 GitHub Actions workflow。
+CodeLab Organization 的公共配置仓库，维护组织主页、默认 Issue / PR 模板、社区健康文件和 GitHub 工作流。
 
-## 这是什么
+## 内容边界
 
-`.github` 是 Organization 级特殊仓库，GitHub 会自动把其中的模板与社区健康文件作为组织内所有仓库的默认值：
+本仓库只负责 GitHub 平台配置和协作入口，不维护实验室人事、组织制度或成员管理内容。技术与协作规范的唯一来源是 [docs](https://github.com/nynu-codelab/docs)。
 
-- 组织主页：`profile/README.md`，展示在 <https://github.com/nynu-codelab>
-- Issue 模板：`ISSUE_TEMPLATE/`
-- PR 模板：`PULL_REQUEST_TEMPLATE.md`
-- 社区健康文件：`CONTRIBUTING.md` / `CODE_OF_CONDUCT.md` / `SECURITY.md` / `SUPPORT.md`
-- 共享 workflow 模板与本仓库 CI：`.github/workflows/`
-- 审批线：`.github/CODEOWNERS`
-
-## 目录结构
+## Structure
 
 ```text
 .github/
-├── .github/
-│   ├── CODEOWNERS              # 审批线：默认 software，workflows 归 codelab-admin
-│   └── workflows/
-│       ├── markdown-lint.yml   # Markdown 规范检查（CI）
-│       └── pr-title-lint.yml   # PR 标题 Conventional Commits 检查（CI）
 ├── profile/
-│   └── README.md               # 组织主页
+│   └── README.md                    # 组织主页
 ├── ISSUE_TEMPLATE/
-│   ├── bug_report.yml
-│   ├── feature_request.yml
-│   ├── project_task.yml
-│   └── config.yml
+│   ├── bug_report.yml               # 缺陷
+│   ├── feature_request.yml          # 功能建议
+│   ├── project_task.yml             # 项目任务
+│   ├── documentation.yml            # 文档任务
+│   ├── technical_debt.yml           # 技术债
+│   └── config.yml                   # Issue 模板配置
+├── workflow-templates/              # Organization 可选工作流模板
+├── .github/workflows/               # 本仓库自身的检查工作流
 ├── PULL_REQUEST_TEMPLATE.md
+├── CODEOWNERS
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── SECURITY.md
 ├── SUPPORT.md
 ├── .markdownlint-cli2.yaml
-├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
-## 怎么维护
+## 自动生效范围
 
-权限模型与全组织一致（见 [docs 协作规范](https://github.com/nynu-codelab/docs)）：
+GitHub 会默认读取本仓库的 Issue / PR 模板和社区健康文件。`.github/workflows/` 中的工作流只检查本仓库自身；其他仓库需要按需复制或调用工作流，`workflow-templates/` 提供可复用入口。
 
-| Team | 权限 | 职责 |
-| --- | --- | --- |
-| codelab-admin | Maintain | 仓库设置、分支保护、workflow 改动审批 |
-| software | Write | 推分支、开 PR、默认审批人 |
+## 修改流程
 
-改动流程：
+本仓库由 `codelab-admin` 维护。修改默认模板、协作规则或安全策略时，通过 Pull Request 提交并完成 Review。
 
-1. 从 `main` 切分支：`docs/*`、`chore/*`、`ci/*`
-2. 走 Pull Request，标题遵循 Conventional Commits（`type(scope): description`）
-3. CI（Markdown Lint、PR Title Lint）通过并完成 review 后，squash 合并到 `main`
-4. 模板与社区健康文件合并后自动对全组织生效；`.github/workflows/` 改动按 CODEOWNERS 由 `codelab-admin` 审批
+## 规范入口
 
-协作细节（分支模型、commit 规范、禁止事项）见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- 组织协作总则：[CONTRIBUTING.md](CONTRIBUTING.md)
+- 技术文档与协作规范：[docs](https://github.com/nynu-codelab/docs)
+- 项目模板：[templates](https://github.com/nynu-codelab/templates)
+- 安全问题：[SECURITY.md](SECURITY.md)
 
 ## License
 

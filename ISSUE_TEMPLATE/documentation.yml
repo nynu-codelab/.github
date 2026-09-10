@@ -1,0 +1,41 @@
+name: Documentation
+description: 新增或修正技术文档、示例、接口说明和部署说明。
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 提交前请确认
+        - 已搜索 Issue 和 Pull Request，确认没有重复
+        - 已确定文档应落在组织级 `docs` 仓库还是项目仓库
+  - type: textarea
+    id: problem
+    attributes:
+      label: 文档问题
+      description: 当前哪部分缺失、过时、含糊或容易误导？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议内容
+      description: 说明应补充或修改什么，并给出目标读者。
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 文档位置
+      description: 仓库、目录或页面链接。
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完成标准
+      description: 说明怎样算完成，例如示例可运行、链接有效、命令已验证。
+      placeholder: |
+        - [ ] 命令已实际执行验证
+        - [ ] 内部链接有效
+        - [ ] 与现有规范一致
+    validations:
+      required: true

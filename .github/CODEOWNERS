@@ -1,0 +1,8 @@
+# CODEOWNERS —— 审批线，规则与 docs 仓库《新仓库权限配置》一致
+# 只认 GitHub login / team，不写中文名
+
+# 默认：所有改动由 software 团队审批
+* @nynu-codelab/software
+
+# 组织级 CI / workflow 模板：由 codelab-admin 把关
+/.github/workflows/ @nynu-codelab/codelab-admin

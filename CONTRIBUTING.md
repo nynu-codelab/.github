@@ -31,7 +31,7 @@ Issue
 2. 从 `develop` 创建分支；没有 `develop` 的短周期项目从 `main` 创建。
 3. 完成开发后先执行本地 Lint、测试和构建。
 4. Push 分支并创建 Pull Request，关联 Issue。
-5. 等待 CI 通过，按 [Code Review 规范](https://github.com/nynu-codelab/docs/blob/main/software/github/code-review.md)完成评审。
+5. 等待 CI 通过，按 [Code Review 规范](https://github.com/nynu-codelab/docs/blob/main/software/README.md#code-review)完成评审。
 6. 满足合并条件后合并，并删除已合并分支。
 
 ## 分支模型
@@ -69,7 +69,7 @@ fix(api): handle empty result set
 docs(github): clarify review checklist
 ```
 
-建议使用英文描述，保持简短、明确。完整规则见 [Commit 规范](https://github.com/nynu-codelab/docs/blob/main/software/git/commit-convention.md)。
+建议使用英文描述，保持简短、明确。完整规则见 [Commit 规范](https://github.com/nynu-codelab/docs/blob/main/software/README.md#commit-规范)。
 
 ## Pull Request 要求
 
@@ -80,7 +80,7 @@ docs(github): clarify review checklist
 - 不混入无关格式化、重构或依赖升级。
 - 所有检查通过，至少一位 Reviewer 批准后才能合并；关键规范仓库还要求 `codelab-admin` 作为 Code Owner 批准。
 
-详细流程见 [Pull Request 规范](https://github.com/nynu-codelab/docs/blob/main/software/github/pull-request.md)。
+详细流程见 [Pull Request 规范](https://github.com/nynu-codelab/docs/blob/main/software/README.md#pull-request-规范)。
 
 ## Teams 与仓库权限
 
@@ -122,7 +122,7 @@ GitHub 不允许 PR 作者批准自己的 Pull Request。`codelab-admin` 成员�
 - CI 失败不得合并。
 - 测试、构建和发布命令写入项目 `README.md`，避免依赖个人环境知识。
 
-技术方案、测试和发布规范见 [工程流程](https://github.com/nynu-codelab/docs/tree/main/software/engineering)。
+技术方案、测试和发布规范见 [工程流程](https://github.com/nynu-codelab/docs/blob/main/software/README.md#工程流程总览)。
 
 ## 文档
 

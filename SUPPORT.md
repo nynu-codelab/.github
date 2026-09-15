@@ -1,25 +1,8 @@
 # Support
 
-## 获取帮助
+求助渠道与提问要求维护在飞书《组织协作总则与行为规范》的「获取帮助」一节：
+https://mcnccybqf361.feishu.cn/docx/CSUSdGzDGoFS31x2WLWciL4GnQg
 
-按以下顺序处理：
+一句话版本：技术问题先查飞书规范与已有 Issue；项目缺陷在对应项目仓库开 Issue；账号、组织和仓库权限通过飞书联系 `codelab-admin`；安全问题直接开 Issue 讨论，凭据泄露先轮换密钥。
 
-1. **技术问题**：先查 [docs](https://github.com/nynu-codelab/docs)，再在对应项目仓库搜索已有 Issue。
-2. **项目缺陷或改进**：在对应项目仓库创建 Bug Report、Feature Request 或 Project Task。
-3. **GitHub 账号、组织邀请、仓库权限**：通过飞书联系 `codelab-admin`。
-4. **实验室组织制度、会议、考勤和成员管理**：以飞书 CodeLab 成员手册和群通知为准。
-5. **安全问题**：代码漏洞、依赖告警、配置隐患直接开 Issue 讨论即可；如果是**误提交了凭据**，先按 [SECURITY.md](SECURITY.md) 轮换密钥，再开 Issue 说明情况。
-
-## 提问时请提供
-
-- 问题现象和影响范围
-- 操作系统、运行时或依赖版本
-- 最小复现步骤
-- 相关日志或截图（先移除密钥和敏感数据）
-- 已经尝试过的排查方法
-
-## 不要
-
-- 不要在 Issue、PR 或评论中粘贴密码、Token、`.env` 或企业数据。
-- 不要把密码、Token 或真实 `.env` 贴进 Issue——不是因为不能公开讨论，而是这些内容本身就等于泄露。
-- 不要跳过文档和已有 Issue 直接重复提问。
+本文件只作为入口，不重复飞书中的内容。

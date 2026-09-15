@@ -8,7 +8,7 @@ body:
       value: |
         ## 提交前请确认
         - 已搜索 Issue，确认没有重复
-        - 已确认这不是使用方式问题（可先阅读 [docs](https://github.com/nynu-codelab/docs)）
+        - 已确认这不是使用方式问题（可先阅读飞书《软件研发协作规范》）
   - type: textarea
     id: description
     attributes:

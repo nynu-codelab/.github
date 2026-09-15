@@ -58,8 +58,7 @@ pull request bodies follow one published convention.
 | Team | Scope |
 | --- | --- |
 | `codelab-admin` | 队长与组织所有者 — repository setup, permissions, security baseline |
-| `software` | 软件研发部成员 — all development repositories |
-| `achievement` | 成果中心成员 — achievement and archive repositories |
+| `members` | CodeLab 全体成员 — all repositories |
 
 ## Joining
 

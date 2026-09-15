@@ -8,7 +8,7 @@ body:
       value: |
         ## 提交前请确认
         - 已搜索 Issue 和 Pull Request，确认没有重复
-        - 已确定文档应落在组织级 `docs` 仓库还是项目仓库
+        - 已确定文档应落在飞书（制度与规范）还是项目仓库（接口、数据库、部署、复盘等技术文档）
   - type: textarea
     id: problem
     attributes:

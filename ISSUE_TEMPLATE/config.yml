@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: CodeLab 技术文档
-    url: https://github.com/nynu-codelab/docs
-    about: 先查阅技术规范、工具指南和协作流程。
-  - name: CodeLab 支持说明
-    url: https://github.com/nynu-codelab/.github/blob/main/SUPPORT.md
-    about: 账号、权限、安全问题和帮助渠道说明。
+  - name: CodeLab 协作规范（飞书）
+    url: https://mcnccybqf361.feishu.cn/docx/EynwdC2NmoXtccxMQBCc4Kkrnmh
+    about: 先查阅协作规范与技术流程，再开 Issue。
+  - name: CodeLab 帮助渠道（飞书）
+    url: https://mcnccybqf361.feishu.cn/docx/CSUSdGzDGoFS31x2WLWciL4GnQg
+    about: 账号、权限、安全与求助渠道说明。

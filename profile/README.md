@@ -51,6 +51,7 @@ pull request bodies follow one published convention.
 | --- | --- |
 | [**codelab-web**](https://github.com/nynu-codelab/codelab-web) | Official website and recruitment management system (Spring Boot 3 · Vue 3 · MySQL · Redis) |
 | [**lab-member-system-docs**](https://github.com/nynu-codelab/lab-member-system-docs) | Onboarding project briefs — a member management system specified end to end |
+| [**chengxing**](https://github.com/nynu-codelab/chengxing) | 成行 — trip coordination for small groups: activity proposals, group decisions and shared itineraries (early development) |
 | [**.github**](https://github.com/nynu-codelab/.github) | Organization-wide collaboration defaults: issue and pull request templates, community health files, reusable workflows |
 
 ## Teams

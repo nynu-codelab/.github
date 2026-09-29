@@ -13,7 +13,7 @@ CodeLab 组织的公共配置仓库。这里只保留 GitHub 平台自身的运�
 
 制度与流程见飞书 [成员手册](https://mcnccybqf361.feishu.cn/docx/QcrBd22vFo1NfSxHNoEcZWHZnfF) 与 [协作流程](https://mcnccybqf361.feishu.cn/docx/VK2gdUejDoLZYyxrYZJcsuoJnPc)。
 
-## Structure
+## 仓库结构
 
 ```text
 .github/

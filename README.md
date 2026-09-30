@@ -1,6 +1,10 @@
-# CodeLab .github
+<h1 align="center">CodeLab .github</h1>
 
-CodeLab 组织的公共配置仓库。这里只保留 GitHub 平台自身的运行部件：Issue / Pull Request 模板、社区健康文件与可复用工作流。
+<p align="center">CodeLab 组织的公共配置仓库 — 这里只保留 GitHub 平台自身的运行部件：Issue / Pull Request 模板、社区健康文件与可复用工作流。</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+</p>
 
 ## 内容边界
 
